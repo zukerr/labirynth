@@ -1,2 +1,2 @@
 # labirynth
-Labirynth game concept with procedural room generation. 
+Labirynth game with procedural room generation in early stage of development. 
