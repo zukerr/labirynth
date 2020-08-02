@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1934577077590836}
+  m_IsPrefabAsset: 1
+--- !u!1 &1934577077590836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4778484243543104}
+  - component: {fileID: 114506630781693262}
+  m_Layer: 0
+  m_Name: MapGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4778484243543104
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1934577077590836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114506630781693262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1934577077590836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d1b7f7ba541024191cc75563681b6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectivePrefab: {fileID: 1788332254552194, guid: 1b97cc47a7e54054880f480dc1c92188,
+    type: 2}
+  redOrbSprite: {fileID: 21300000, guid: e942a8dc1fd788444ba9f3c609f85b41, type: 3}
+  greenOrbSprite: {fileID: 21300000, guid: dd49cb3f8c8c67345817a5d8a5dce617, type: 3}
+  blueOrbSprite: {fileID: 21300000, guid: cf88a7f4d4a5c1945bd37e3293bc5301, type: 3}
+  redRuneSprite: {fileID: 21300000, guid: 834a80a5298ff934ab3f3dd84a94ebf9, type: 3}
+  greenRuneSprite: {fileID: 21300000, guid: 5a40ad39d03880442abe8fa756a45a26, type: 3}
+  blueRuneSprite: {fileID: 21300000, guid: b23c89c9e52b34944a445cd45ac9844a, type: 3}
+  orbMaterial: {fileID: 2100000, guid: 7b55833ddaf58804a83ef0b3b0e216cb, type: 2}
+  runeMaterial: {fileID: 2100000, guid: f38510d5da31f324aaf5889cfeaf39f7, type: 2}
+  closedSprite: {fileID: 21300000, guid: 1b8d6bc76b16ce344842f1320ebfd198, type: 3}
+  openSprite: {fileID: 21300000, guid: c18af6df331da694080f84947a7b114c, type: 3}
+  tilePrefab: {fileID: 1176838654264372, guid: beb0e70dc51597d46b5ebf3b8b743c2d, type: 2}
+  numberOfRows: 20
+  numberOfColumns: 20
+  tileLength: 1.28
+  amountOfOrbs: 3
+  nonStaticTileCounter: 0
+  nonStaticOpenTileCounter: 0
+  nonStaticCleanTileCounter: 0
+  nonStaticRunesCompleted: 0
